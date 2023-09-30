@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelpMeOut Extension</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/popup.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/switch.css" />
+  </head>
+  <body>
+    <div class="popup-container">
+      <header class="popup-header">
+        <div><img src="img/main-logo.png" alt="HelpMeOut logo" /></div>
+        <div class="header-right">
+          <div><img src="img/setting.png" alt="setting icon" /></div>
+          <div><img src="img/close-circle.png" alt="close icon" /></div>
+        </div>
+      </header>
+      <div class="popup-content">
+        <p class="description">
+          This extension helps you record and share videos with ease.
+        </p>
+        <div class="screen-cnt">
+          <div><img src="img/monitor.png" alt="monitor icon" /></div>
+          <p class="screen-name">Full screen</p>
+        </div>
+        <div class="tab-cnt">
+          <div><img src="img/copy.png" alt="current tab icon" /></div>
+          <p class="tab-name">Current Tab</p>
+        </div>
+        <div class="camera-cnt">
+          <div class="media-left-cnt">
+            <div><img src="img/video.png" alt="video icon" /></div>
+            <p class="media-name">Camera</p>
+          </div>
+
+          <div>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="audio-cnt">
+          <div class="media-left-cnt">
+            <div><img src="img/mic.png" alt="mic icon" /></div>
+            <p class="media-name">Audio</p>
+          </div>
+
+          <div>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <button id="requestPermissions" class="record-cnt">
+          Start Recording
+        </button>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+/* Switch style */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 36px; /* Fixed width */
+  height: 20px; /* Fixed height */
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 10px; /* Adjusted for the new height */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px; /* Adjusted for the new height */
+  width: 14px; /* Adjusted for the new height */
+  left: 3px; /* Adjusted for the new width */
+  bottom: 3px; /* Adjusted for the new height */
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%; /* Make it a circle */
+}
+
+input:checked + .slider {
+  background-color: #100a42;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #100a42;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px); /* Adjusted for the new width */
+  -ms-transform: translateX(18px); /* Adjusted for the new width */
+  transform: translateX(18px); /* Adjusted for the new width */
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 10px; /* Adjusted for the new height */
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

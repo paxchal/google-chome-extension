@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "HelpMeOut",
+  "version": "1.0.0",
+  "description": "  You extension for screen recording",
+  "permissions": ["activeTab", "tabs"],
+
+  "icons": {
+    "16": "icons/icon-40.png",
+    "48": "icons/icon-40.png",
+    "128": "icons/icon-132.png"
+  },
+
+  "action": {
+    "default_title": "Click Me",
+    "default_popup": "popup.html"
+  }
+}

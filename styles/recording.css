@@ -1,0 +1,46 @@
+/* RECORDING CSS*/
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: end;
+  position: absolute;
+
+  color: #fff;
+}
+
+.record-container {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px 20px 40px;
+  gap: 40px;
+}
+
+.profile-image {
+  width: 120px;
+}
+
+.play-container {
+  display: flex;
+  align-items: center;
+  background-color: #141414;
+  border-radius: 100px;
+  gap: 20px;
+  padding: 8px 40px 8px 40px;
+}
+
+.media-icon {
+  width: 30px;
+}
+
+.media-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-cnt p {
+  font-size: 10px;
+}

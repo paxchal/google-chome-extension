@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.logo-font {
+  font-family: "Inter", sans-serif;
+}
+
+.center {
+  padding: 0 60px 0 60px;
+}
+
+.seperate-section {
+  background-color: rgba(206, 200, 200, 0.199);
+  height: 30px;
+}

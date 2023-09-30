@@ -1,0 +1,251 @@
+.section-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 96px;
+}
+
+.header-primary {
+  font-weight: 700;
+  font-size: 34px;
+  font-family: "Sora", sans-serif;
+  color: #141414;
+  margin-bottom: 36px;
+}
+
+.video-details-cnt {
+  max-width: 400px;
+}
+.video-name-label {
+  font-size: 12px;
+  font-family: "Sora", sans-serif;
+  color: #727272;
+  font-weight: 500;
+}
+
+.video-edit-cnt {
+  display: flex;
+  font-family: "Sora", sans-serif;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.video-edit-cnt p {
+  font-size: 16px;
+  line-height: 30.24px;
+  font-weight: 600;
+  color: #413c6d;
+}
+
+.edit-icon {
+  width: 18px;
+}
+
+.send-video-form {
+  background-color: #b6b3c633;
+
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px 12px 24px;
+  margin-bottom: 36px;
+}
+
+.form-input {
+  background: transparent;
+  border: none;
+  height: 20px;
+  max-width: 250px;
+  outline: none;
+  font-size: 14px;
+}
+
+.form-input::placeholder {
+  font-size: 13px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.form-send-btn {
+  border: none;
+  background-color: #605c84;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 18px;
+  border-radius: 8px;
+}
+
+.video-url-title {
+  font-size: 14px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  color: #141414;
+  margin-bottom: 10px;
+}
+
+.video-url-cnt {
+  color: #929292;
+  background-color: #fafafa;
+
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  margin-bottom: 36px;
+}
+
+.video-url-cnt p {
+  font-size: 11px;
+}
+
+.copy-link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  border: solid 1px #120b4891;
+  border-radius: 7px;
+}
+
+.copy-url-icon {
+  width: 14px;
+}
+
+.socials-header {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Sora", sans-serif;
+  margin-bottom: 10px;
+}
+
+.socials-cnt {
+  display: flex;
+  gap: 8px;
+}
+.socials-btn {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 8px;
+  gap: 6px;
+  padding: 6px 12px;
+  border: solid 1px #0a062891;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.scocials-icon {
+  width: 10px;
+}
+
+.right-grid {
+  padding-right: 50px;
+}
+
+.video-thumbnail-cnt {
+  border: solid 1px #413c6da8;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.video-thumbnail {
+  flex: 1;
+  background-color: #d3d3d3;
+  height: 300px;
+}
+
+.video-settings-cnt {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+  height: 50px;
+}
+
+.video-timer {
+  color: #939393;
+  font-family: "Inter", sans-serif;
+}
+
+.video-setting-right-cnt {
+  display: flex;
+  gap: 20px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #141414;
+}
+
+.video-settings-icon-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-settings-icon {
+  width: 18px;
+}
+
+.header-secondary {
+  font-size: 16px;
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.change-language {
+  max-width: 100px;
+  margin-bottom: 18px;
+}
+
+.trancript-list-cnt {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  row-gap: 16px;
+}
+
+.section-save {
+  background-color: #e7e7ed33;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.save-container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  gap: 26px;
+  text-align: center;
+}
+
+.section-save p {
+  font-family: "Sora", sans-serif;
+}
+
+.save-description {
+  font-weight: 600;
+}
+
+.create-account {
+  color: #7e7e7e;
+  font-weight: 600;
+}
+
+.save-cta-btn {
+  background-color: #120b48;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+}
