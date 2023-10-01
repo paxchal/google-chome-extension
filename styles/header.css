@@ -40,4 +40,13 @@
   border: none;
   cursor: pointer;
   font-family: "Sora", sans-serif;
+  text-decoration: none;
+}
+
+.how-btn,
+.feature-btn {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
 }
