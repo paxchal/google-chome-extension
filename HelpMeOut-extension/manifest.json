@@ -2,13 +2,17 @@
   "manifest_version": 3,
   "name": "HelpMeOut",
   "version": "1.0.0",
-  "description": "  You extension for screen recording",
-  "permissions": ["activeTab", "tabs"],
+  "description": "  Your extension for screen recording",
+  "host_permissions": ["http://*/", "https://*/"],
+  "permissions": ["activeTab", "tabs", "scripting"],
 
   "icons": {
     "16": "icons/icon-40.png",
     "48": "icons/icon-40.png",
     "128": "icons/icon-132.png"
+  },
+  "background": {
+    "service_worker": "/js/background.js"
   },
 
   "action": {
