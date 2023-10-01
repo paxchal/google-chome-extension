@@ -1,12 +1,12 @@
 .profile-link {
-  width: 130px;
+  width: 13rem;
 }
 
 .section-welcome {
   display: flex;
   flex: 1;
-  margin-top: 10px;
-  margin-bottom: 50px;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
 .section-welcome div {
@@ -19,13 +19,14 @@
 .recent-file-grids-cnt {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
 .recent-files-title {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   color: #141414cc;
   font-weight: 500;
+  font-size: 1rem;
 }
 
 .video-repository-title-cnt {
@@ -34,21 +35,22 @@
 }
 
 .share-thumbnail {
-  height: 240px;
+  height: 24rem;
   background-color: rgb(199, 199, 199);
+  text-align: center;
 }
 
 .video-title {
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #141414;
 }
 
 .video-date {
   color: #b6b3c6;
-  font-size: 8px;
+  font-size: 0.8rem;
 }
 
 .cnt-padding {
-  padding: 10px 10px;
+  padding: 1rem 1rem;
 }

@@ -1,15 +1,16 @@
 .section-input {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 90px;
+  gap: 9rem;
 }
 
 article {
-  margin: 50px 0;
+  margin: 5rem 0;
 }
 
 .pages-nav {
   color: #141414b2;
+  font-size: 1rem;
 }
 
 .pages-nav span {
@@ -18,17 +19,17 @@ article {
 
 .video-main-title-cnt {
   display: flex;
-  gap: 12px;
-  margin: 16px 0;
-  font-size: 14px;
+  gap: 1.2rem;
+  margin: 1.6rem 0;
+  font-size: 1.4rem;
   font-weight: 600;
   color: #141414;
 }
 .video-main-thumbnail-cnt {
   width: 100%;
-  height: 300px;
-  padding: 10px;
-  border-radius: 8px;
+  height: 30rem;
+  padding: 1rem;
+  border-radius: 0.8rem;
   border: solid 1px rgba(128, 128, 128, 0.37);
 }
 
@@ -36,7 +37,7 @@ article {
   background-color: rgba(196, 190, 190, 0.473);
   width: 100%;
   height: 100%;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   overflow: hidden;
   text-align: center;
 }

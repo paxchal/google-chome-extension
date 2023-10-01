@@ -13,25 +13,26 @@
 .record-container {
   display: flex;
   align-items: center;
-  padding: 20px 40px 20px 40px;
-  gap: 40px;
+  padding: 2rem 4rem;
+  gap: 4rem;
 }
 
 .profile-image {
-  width: 120px;
+  width: 12rem;
 }
 
 .play-container {
   display: flex;
   align-items: center;
   background-color: #141414;
-  border-radius: 100px;
-  gap: 20px;
-  padding: 8px 40px 8px 40px;
+  border-radius: 10rem;
+  gap: 2rem;
+  padding: 0.8rem 4rem;
+  font-size: 1rem;
 }
 
 .media-icon {
-  width: 30px;
+  width: 3rem;
 }
 
 .media-cnt {
@@ -42,5 +43,5 @@
 }
 
 .media-cnt p {
-  font-size: 10px;
+  font-size: 1rem;
 }

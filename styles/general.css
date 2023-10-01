@@ -9,6 +9,7 @@ html {
 
 body {
   font-family: "Work Sans", sans-serif;
+  font-size: 62.5%;
 }
 
 .logo-font {
@@ -16,12 +17,12 @@ body {
 }
 
 .center {
-  padding: 0 60px 0 60px;
+  padding: 0rem 5rem;
 }
 
 .seperate-section {
   background-color: rgba(206, 200, 200, 0.199);
-  height: 30px;
+  height: 0.3rem;
 }
 
 .justify-content-end {
