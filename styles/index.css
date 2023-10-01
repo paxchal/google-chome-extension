@@ -1,6 +1,6 @@
 .section-hero {
   display: grid;
-  grid-template-columns: 1fr 1.3fr;
+  grid-template-columns: 1fr 1fr;
   margin-top: 10px;
   margin-bottom: 50px;
 }
@@ -13,6 +13,7 @@
 }
 .hero-left {
   align-self: center;
+  max-width: 400px;
 }
 
 .hero-left p {

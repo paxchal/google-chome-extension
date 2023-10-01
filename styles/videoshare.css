@@ -157,6 +157,7 @@
   flex: 1;
   background-color: #d3d3d3;
   height: 300px;
+  text-align: center;
 }
 
 .video-settings-cnt {

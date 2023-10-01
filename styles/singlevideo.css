@@ -1,0 +1,42 @@
+.section-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+}
+
+article {
+  margin: 50px 0;
+}
+
+.pages-nav {
+  color: #141414b2;
+}
+
+.pages-nav span {
+  color: #413c6d;
+}
+
+.video-main-title-cnt {
+  display: flex;
+  gap: 12px;
+  margin: 16px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #141414;
+}
+.video-main-thumbnail-cnt {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: solid 1px rgba(128, 128, 128, 0.37);
+}
+
+.video-main-thumbnail {
+  background-color: rgba(196, 190, 190, 0.473);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
