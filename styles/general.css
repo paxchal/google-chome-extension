@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: content-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Work Sans", sans-serif;
@@ -19,4 +22,8 @@ body {
 .seperate-section {
   background-color: rgba(206, 200, 200, 0.199);
   height: 30px;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
 }

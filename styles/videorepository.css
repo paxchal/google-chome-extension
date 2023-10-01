@@ -1,0 +1,54 @@
+.profile-link {
+  width: 130px;
+}
+
+.section-welcome {
+  display: flex;
+  flex: 1;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.section-welcome div {
+  width: 100%;
+}
+.top-content {
+  width: 100%;
+}
+
+.recent-file-grids-cnt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.recent-files-title {
+  margin-bottom: 20px;
+  color: #141414cc;
+  font-weight: 500;
+}
+
+.video-repository-title-cnt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.share-thumbnail {
+  height: 240px;
+  background-color: rgb(199, 199, 199);
+}
+
+.video-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #141414;
+}
+
+.video-date {
+  color: #b6b3c6;
+  font-size: 8px;
+}
+
+.cnt-padding {
+  padding: 10px 10px;
+}
