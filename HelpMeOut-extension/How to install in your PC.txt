@@ -1,0 +1,21 @@
+Step 1
+
+Unzip the file that is downloaded to your preferred folder.
+
+Step 2
+
+Go to chrome and navigate to your extensions, click on Manage extensions.
+
+Step 3
+
+It will take you to Chrome://extensions, turn on Developer mode and click on Load unpacked.
+
+
+step 4
+
+open the folder that stores all the HelpMeOut files and Open folder.
+
+
+Step 5
+
+Congratulations! HelpMeOut is successfully installed in your browser.
